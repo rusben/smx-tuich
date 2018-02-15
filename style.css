@@ -1,7 +1,8 @@
 footer{
   background-color: black;
   clear: both;
+  color: white;
 }
 li {
-  list-style-type: none; float: left; margin: 4px; color: black;
-}
+  list-style-type: none; float: left; margin: 4px;}
+.clearfix{clear:both;}
