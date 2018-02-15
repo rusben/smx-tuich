@@ -1,0 +1,7 @@
+footer{
+  background-color: black;
+  clear: both;
+}
+li {
+  list-style-type: none; float: left; margin: 4px; color: black;
+}
