@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -34,3 +35,10 @@ nav{background: #6441a4;
   white-space: nowrap;
   text-align: center;
 }
+
+footer{
+  background-color: black;
+  clear: both;
+}
+li {
+  list-style-type: none; float: left; margin: 4px; color: black;}
