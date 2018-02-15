@@ -39,6 +39,13 @@ nav{background: #6441a4;
 footer{
   background-color: black;
   clear: both;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
+footer ul{margin: 0;}
 li {
-  list-style-type: none; float: left; margin: 4px; color: black;}
+  list-style-type: none; float: left; margin: 4px; }
+
+#espacio-pesado{margin-right: 57px;}
