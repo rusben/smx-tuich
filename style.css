@@ -48,6 +48,7 @@ footer ul{margin: 0;}
 li {
   list-style-type: none; float: left; margin: 4px; }
 
+
 #espacio-pesado{margin-right: 57px;}
 
 .games{
@@ -68,5 +69,15 @@ li {
 }
 
 .piefoto{
-  width: 148px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;
-}
+  width: 148px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;}
+
+#slider-container{width: 100%auto;
+  background-color: black;
+  height: 540px;
+  padding-top: 1%;}
+
+#slider{
+  background-color: white;
+  width: 980px;
+  margin: 0 auto;
+  height: 96%;}
