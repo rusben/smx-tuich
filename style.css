@@ -51,16 +51,33 @@ li {
 
 #espacio-pesado{margin-right: 57px;}
 
+.games{
+  margin: 0 auto;
+  width: 980px;
+}
+
+.titulo{
+  float: left;font-family: Helvetica Neue,Helvetica,Arial,sans-serif;font-size: 28px; width: 40%;
+}
+
+.subtitulo{
+  width: 60%; float: left;
+}
+
+.see{
+  text-align: right;color: #6441a4; font-size: 18px;
+}
+
+.piefoto{
+  width: 148px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;}
+
 #slider-container{width: 100%auto;
   background-color: black;
   height: 540px;
-  padding-top: 1%;
-}
+  padding-top: 1%;}
 
 #slider{
   background-color: white;
   width: 980px;
   margin: 0 auto;
-  height: 96%;
-
-}
+  height: 96%;}
