@@ -54,14 +54,15 @@ li {
 .games{
   margin: 0 auto;
   width: 980px;
+  margin-top: 60px;
 }
 
 .titulo{
-  float: left;font-family: Helvetica Neue,Helvetica,Arial,sans-serif;font-size: 28px; width: 40%;
+  float: left;font-family: Helvetica,Arial,sans-serif;font-size: 28px; width: 25%;margin-bottom: 20px;
 }
 
 .subtitulo{
-  width: 60%; float: left;
+  width: 60%; float: left; color: #6e6779; font-size: 25px;font-family: Helvetica,Arial,sans-serif;margin-top: 3px;margin-bottom: 20px;
 }
 
 .see{
