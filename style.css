@@ -68,6 +68,8 @@ li {
 .see{
   text-align: right;color: #6441a4; font-size: 18px;
 }
+.piefoto2{
+  width: 300px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;}
 
 .piefoto{
   width: 148px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;}
