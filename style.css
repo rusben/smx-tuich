@@ -8,7 +8,9 @@
 
 nav{background: #6441a4;
   color: white;
-
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 .left{float: left;
 }
@@ -34,6 +36,9 @@ nav{background: #6441a4;
   white-space: nowrap;
   text-align: center;
 }
+
+section{margin-top: 3.5em;}
+
 
 footer{
   background-color: black;
