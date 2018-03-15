@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   box-sizing: padding-box;
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,!sans-serif;
 }
 
 
@@ -123,12 +124,17 @@ li {
  .contenidos{
 width: 55%;
 margin: 0 auto;
-background-color: blue;
  }
 
+ .ima{float: left;}
+
  .Texto{
-   float: right;
-   width: 279;
+   float: left;
+   margin-left: 20px;
+   width: 279px;;
+   }
+   .Texto h2{font-size: 28px;
+   font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
  }
 
  .top{width: 60%;
@@ -230,4 +236,11 @@ form.example button {
     font-size: 17px;
     border: 1px solid grey;
     border-right: none;
+}
+.sep{color: #696969;
+  border-bottom: 1px solid #696969;
+  padding: 2px;
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
