@@ -187,6 +187,18 @@ font-style: normal;}
   margin-top: 60px;
 }
 
+.blogcontent2{
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.blogcontent3{
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
 .fotoblog{width: 300px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;}
 
 #first-menu a{text-decoration: none;}
@@ -197,6 +209,7 @@ font-style: normal;}
     text-decoration: none;}
 #social-media{float: right; width: 28%; margin-bottom: 40px;}
 .social{float: left; margin-left: 10px;}
+
 
 form.example input[type=text] {
     padding: 5px;
