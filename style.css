@@ -9,9 +9,10 @@
 
 nav{background: #6441a4;
   color: white;
-  position: fixed;
   width: 100%;
   top: 0px;
+
+#menu-principal{  position: fixed;}
 }
 .left{float: left;
 }
@@ -122,7 +123,7 @@ li {
  }
 
  .contenidos{
-width: 902px;
+width: 55%;
 margin: 0 auto;
 background-color: blue;
  }
@@ -178,3 +179,11 @@ font-style: normal;}
   border: 1px solid rgba(255,255,255,.35);
   border-radius: 4px;
 }
+
+.blogcontent{
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.fotoblog{width: 300px; float: left; margin-right: 15px; font-size: 15px;margin-bottom: 35px;}
