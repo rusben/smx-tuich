@@ -3,28 +3,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <title>TUICH</title>
   </head>
   <body>
 
     <!-- this is menu -->
-    <nav>
-        <div class="left" id="logo"><img src="http://via.placeholder.com/92x32" alt="logo"></div>
-        <div class="left" id="search">
-          <div class="left nav-link">
-            <a class="nav-link2" title="Browse" href="index.html">Browse</a>
-            <a href="https://app.twitch.tv/download" class="nav-link2">Get Desktop</a>
-            <a href="https://twitch.amazon.com/prime?ref_=sm_tw_tup_ntp_t_all" target="_blank" class="nav-link2">Try Prime</a>
-            <a href="https://www.amazon.com/twitchmerch?channel=tpn&amp;ref_=tw_or_web_tpn_ms" target="_blank" class="nav-link2">Store</a>
-        </div>
-          <div class="left nav-link">...</div>
-          <div class="left nav-link">SEARCH</div>
-        </div>
-        <div class="right">CROWN</div>
-        <div class="right">LOGIN & SIGN UP</div>
-        <div class="clearfix"></div>
-
-    </nav>
+    <div w3-include-html="menu.html"></div>
+    <!-- this is menu end -->
 
     <!-- this is content -->
     <section>
@@ -163,38 +149,17 @@
 
   </section>
 
+  <!-- this is content end -->
 
     <!-- this is footer -->
-    <footer>
-
-        <ul>
-          <li><img src="index.png" alt="Mountain View" width="34" height="33"></li>
-
-          <li>Abut</li>
-          <li>Blog</li>
-          <li>Turbo</li>
-          <li>Music</li>
-          <li>Advertise</li>
-          <li>Developers</li>
-          <li>Partners</li>
-          <li>Mobile</li>
-          <li>Jobs</li>
-          <li>Help</li>
-          <li>Terms</li>
-          <li>Privacy</li>
-          <li>Policy</li>
-          <li>Ad Choices</li>
-          <li id="espacio-pesado">Cookie Policy</li>
-          <li>Lenguage</li>
-        </ul>
-
-        <div class="clearfix"></div>
-    </footer>
-
+    <div w3-include-html="footer.html"></div>
+    <!-- this is footer end -->
 
   </body>
 
-
+  <script>
+	w3.includeHTML();
+	</script>
 
 
 </html>
