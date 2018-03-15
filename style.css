@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   box-sizing: padding-box;
+  border: 1px solid;
 }
 
 
@@ -108,6 +109,27 @@ li {
    align-items: center;
    margin-top: 30px;
    text-align: center;
+ }
+
+ #footerblog{
+   background-color: rgb(100, 65, 165, 1)
+ }
+
+ .footerblog{
+   float: right;
+   width: 878px;
+   padding-right: 20px;
+ }
+
+ .contenidos{
+width: 902px;
+margin: 0 auto;
+background-color: blue;
+ }
+
+ .Texto{
+   float: right;
+   width: 279;
  }
 
  .top{width: 60%;
